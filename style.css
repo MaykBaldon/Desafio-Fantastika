@@ -1,0 +1,221 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', serif;
+}
+
+/* Inicio da Header */
+
+header {
+    background-color: #252525;
+    width: 100%;
+    height: 8vh;
+    font-size: 3vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    color: #fff;
+    font: weight 700;
+}
+header img {
+    height: 3vh;
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+nav {
+    width: 25vw;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+/* Fim da Header */
+
+/* Inicio da Main */
+
+.primeira-section-main {
+    background-image: url(./assets/bg-main-1.png);
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+.boasVindas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+}
+.boasVindas h1 {
+    color: #fff;
+    font-size: 5vh;
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 40px;
+}
+main section div figure img {
+    height: 10vh;
+}
+
+.segunda-section-main {
+    background-image: url(./assets/bg-main-2.png);
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banhoEtosa {
+    height: 55vh;
+    width: 25vw;
+    text-align: left;
+    color: #3A342F;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banhoEtosa h1 {
+    font-size: 5vh;
+    margin-bottom: 40px;
+}
+
+.banhoEtosa p {
+    font-size: 3vh;
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+    line-height: 4vh;
+}
+
+.banhoEtosa button {
+    margin-top: 2vh;
+    width: 10vw;
+    height: 6vh;
+    background-color:#3A342F;
+    border-radius: 44px;
+    color: #fff;
+    font-size: 1.7vh;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+}
+
+.terceira-section-main {
+    background-image: url(./assets/bg-main-3.png);
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mordomiaSaldavel {
+    margin-right: 10vw;
+    height: 55vh;
+    width: 25vw;
+    color: #fff;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mordomiaSaldavel h1 {
+    font-size: 5vh;
+    margin-bottom: 40px;
+}
+
+.mordomiaSaldavel p {
+    font-size: 3vh;
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+    line-height: 4vh;
+}
+
+.mordomiaSaldavel button {
+    margin-top: 2vh;
+    width: 10vw;
+    height: 6vh;
+    background-color:#fff;
+    border-radius: 44px;
+    color: #3A342F;
+    font-size: 1.7vh;
+    font-family: 'roboto', sans-serif;
+    border: none;
+    font-weight: bold;
+}
+
+.apoio {
+    height: 10vh;
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+}
+
+.apoio figure {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color: #FD6A9A;
+    font-size: 3vh;
+    font-family: 'roboto', serif;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 20vw;
+}
+
+.apoio figure img {
+    height: 2vh;
+}
+
+/* Fim da Header */
+
+/* Inicio do Footer */
+
+footer {
+    background-color: #EB4A7B;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+footer section {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    padding-bottom: 2vh;
+    font-size: 2vh;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+footer section a {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 1vh;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vh;
+}
+
+/* Fim do Footer */
